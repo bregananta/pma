@@ -15,9 +15,9 @@ if [ ! -f $CMD ]; then
     CMD=/vagrant/scripts/serve.sh
 else
     # Create an SSL certificate
-    sudo bash $CMD_CERT phpmyadmin.test
+    sudo bash $CMD_CERT phpmyadmin.local
 fi
 
-sudo bash $CMD phpmyadmin.test $(pwd)/phpmyadmin
+sudo bash $CMD phpmyadmin.local $(pwd)/phpmyadmin
 
 sudo service nginx reload
