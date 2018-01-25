@@ -9,11 +9,11 @@ on a Laravel Homestead box.
 
 2. `cd` to your code/projects directory (by default `~/Code`)
 
-3. `$ curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh`
+3. `$ curl -sS https://raw.githubusercontent.com/bregananta/pma/master/pma.sh | sh`
 
-4. Open the `/etc/hosts` file on your main machine and add `127.0.0.1  phpmyadmin.test`
+4. Open the `/etc/hosts` file on your main machine and add `127.0.0.1  phpmyadmin.local`
 
-5. Go to [http://phpmyadmin.test:8000](http://phpmyadmin.test:8000). Default credentials are username `homestead` and password `secret`
+5. Go to [http://phpmyadmin.local:8000](http://phpmyadmin.local:8000). Default credentials are username `homestead` and password `secret`
 
 ## License
 
